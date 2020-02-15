@@ -1,0 +1,49 @@
+﻿/*
+    20170621 曹傑程: 針對套件作一些微調
+*/
+nav.navbar .container>.navbar-header, nav.navbar .container>.navbar-collapse{
+    margin:0;
+}
+
+.navbar .nav > li > a {
+    font-size: 15px;
+    padding: 15px 10px;
+}
+
+.sub-top {
+    margin: 0px;
+    margin-top: 10px;
+}
+.site-logo {
+    height: 50px;
+    padding: 5px 0px;
+    /*color: #16a085 !important;*/
+    text-shadow: none !important;
+    line-height:40px;
+}
+.site-logo img{
+    height: 40px;
+}
+.navbar .navbar-nav > li ul li.dropdown-right-onhover.open > .dropdown-menu {
+    display: block;
+}
+@media (max-width: 767px){
+    .login-block-item .userName{
+        display:none;
+    }
+    .userTopIcon {
+    margin-left: 0px;
+}
+}
+.navbar.navbar-fixed-bottom .navbar-nav>li.dropdown-grid>.dropdown-grid-wrapper>.dropdown-menu, .navbar.navbar-fixed-bottom .navbar-nav>li[class*=dropdown]>.dropdown-menu{
+    bottom:50px;
+}
+.navbar .navbar-nav .dropdown-menu li:not(.list-group) > a {
+    width: 100%;
+}
+.navbar-brand {
+    float: none;
+}
+.navbar-header > .navbar-brand{
+    float: left;
+}

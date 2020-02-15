@@ -1,0 +1,47 @@
+﻿@*menu-lg menu-sm menu-xs*@
+<nav class="navbar no-border-radius navbar-fixed-top navbar-grey-light" role="navigation">
+    <div class="container">
+        <!-- class="container-fluid" for full width layout, or use class="container" for boxed layout -->
+        <div class="navbar-header">
+            @*手機版伸縮按鈕*@
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MegaNavbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+            @*Logo*@
+            <a class="navbar-brand site-logo" href="~/" style="float: left;font-weight: bold;font-size: x-large;">
+                Jason's Profile
+            </a>
+        </div>
+
+        <div class="navbar-collapse collapse" id="MegaNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="dropdown-short dropdown-onhover">
+                    <a href="#Profile" class="navbar-brand">
+                        個人資料
+                    </a>
+                </li>
+                <li class="dropdown-short dropdown-onhover">
+                    <a href="#Introduction" class="navbar-brand">
+                        簡介
+                    </a>
+                </li>
+                <li class="dropdown-short dropdown-onhover">
+                    <a href="#Education" class="navbar-brand">
+                        學歷
+                    </a>
+                </li>
+                <li class="dropdown-short dropdown-onhover">
+                    <a href="#Experience" class="navbar-brand">
+                        經歷
+                    </a>
+                </li>
+                <li class="dropdown-short dropdown-onhover">
+                    <a href="#Skill" class="navbar-brand">
+                        技能
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
